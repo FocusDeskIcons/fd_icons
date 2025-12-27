@@ -1,0 +1,40 @@
+{
+  "name": "fd-icons",
+  "version": "1.0.0",
+  "description": "A premium icon library with rounded corners and modern design, available in Regular and Thin variants",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FocusDeskIcons/fd_icons.git"
+  },
+  "keywords": [
+    "icons",
+    "font-icons",
+    "rounded-icons",
+    "web-icons",
+    "ui-icons",
+    "design-system",
+    "icon-font",
+    "vector-icons"
+  ],
+  "author": "FocusDesk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FocusDeskIcons/fd_icons/issues"
+  },
+  "homepage": "https://github.com/FocusDeskIcons/fd_icons#readme",
+  "files": [
+    "fdicons-regular-rounded/",
+    "fdicons-thin-rounded/",
+    "demo-fdicon-regular-rounded.html",
+    "demo-fdicon-thin-rounded.html",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
