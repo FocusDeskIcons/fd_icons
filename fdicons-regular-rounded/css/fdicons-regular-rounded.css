@@ -7,7 +7,7 @@
     font-style: normal;
     font-display: block;
 }
-.fdi, [class^="fd-rr-"], [class*=" fd-rr-"] {
+.fdi {
     /* Use !important to prevent extensions from overriding this font. */
     font-family: "FDicons-Regular-Rounded" !important;
     font-style: normal;
