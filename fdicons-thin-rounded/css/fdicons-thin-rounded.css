@@ -1,24 +1,23 @@
 @font-face {
-    font-family: "fdicon-thin-rounded";
-    src: url("fonts/fdicon-thin-rounded.woff2") format("woff2"),
-        url("fonts/fdicon-thin-rounded.ttf") format("truetype"),
-        url("fonts/fdicon-thin-rounded.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
+ font-family: "FDicons-Thin-Rounded";
+ src: url("../fonts/fdicon-thin-rounded.woff2") format("woff2"),
+ url("../fonts/fdicon-thin-rounded.woff") format("woff"),
+ url("../fonts/fdicon-thin-rounded.ttf") format("truetype");
+ font-weight: normal;
+ font-style: normal;
+ font-display: block;
 }
-.fdi, [class^="fd-tr-"], [class*=" fd-tr-"] {
-    /* Use !important to prevent extensions from overriding this font. */
-    font-family: "fdicon-thin-rounded" !important;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+.fdi {
+ / Use !important to prevent extensions from overriding this font. /
+ font-family: "FDicons-Thin-Rounded" !important;
+ font-style: normal;
+ font-weight: normal;
+ font-variant: normal;
+ text-transform: none;
+ line-height: 1;
+/* Better Font Rendering =========== */
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
 }
 .fd-tr-0:before {
     content: "\10186";
