@@ -1,7 +1,7 @@
 @font-face {
  font-family: "FDicons-Regular-Rounded";
- src: url("../fonts/FDicon-Regular-Rounded.woff2") format("woff2"),
- url("../fonts/FDicon-Regular-Rounded.woff") format("woff"),
+ src: url("../fonts/FDicons-Regular-Rounded.woff2") format("woff2"),
+ url("../fonts/FDicons-Regular-Rounded.woff") format("woff"),
  url("../fonts/FDicons-Regular-Rounded.ttf") format("truetype");
  font-weight: normal;
  font-style: normal;
